@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Reimbursment System(ERS)</title>
+
+    <!--================================================
+     * Author: Mukesh Kumar Chaudhary
+     * Title : Employee Reimbursment System (ERS)
+     * Owner : Revature 
+     ===================================================-->
+
+    <link rel="stylesheet" href ="ers.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+       
+        
+        body {
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        /* Style the header */
+        header {
+          background-color: #666;
+          padding: 30px;
+          text-align: center;
+          font-size: 35px;
+          color: white;
+        }
+      
+     </style>
+
+</head>
+<body style="background-color: lightgray;">
+
+    <div id = projecttile>
+        <h2 id = "title">Employee Reimbursment System (ERS)</h2>
+    </div>
+
+    <div class="container" id = "fullcontainer">
+        
+        
+        <div class="row" id="login-row">
+            <input class="col-sm-4 from-control"  type="text" id="username" placeholder="Username">
+            <input class="col-sm-4 from-control" type="password" id ="password"  placeholder="Password">
+            <button id="loginbtn" class = "btn btn-danger">Login</button>
+         </div>
+         
+     
+        <br><br>
+        <div class = "row" id = "forallbtn">
+            <!-- For Button -->
+            <div id = "btngroup">
+             
+            </div>
+        </div><br><br>
+        <!-- For display contain -->
+        <div  class = "row" id ="table-row">
+
+            
+            
+            <table class="table table-hover table-bordered" id = "listemb">
+                  <thead id = "reimbhead">
+                      <!--
+                      <tr>
+                          <th>Reimbursment ID</th>
+                          <th>Type</th>
+                          <th>Status</th>
+                          <th>Total Amount</th>
+                          <th>Submited Date</th>
+                          <th>Resolved Date</th>
+                      </tr>
+
+                      -->
+                  </thead>
+                  <tbody id ="reimbody">
+
+
+                  </tbody>
+
+            </table>
+            <br>
+            <!--
+            <button id="listbtn" class="btn btn-success">View all Reimbursments</button>
+            -->
+         
+           <!--
+           <form>
+               <input list="browse" name = "search">
+               <datalist id ="browse">
+                   <option value = Pending>
+                   <option value = Approved>
+                   <option value = Deny>
+               </datalist>
+           </form>
+          -->
+        </div>
+
+
+
+
+     </div>
+
+    
+    <script src = "ERS.js"></script>
+    <script>
+  
+    </script>
+</body>
+</html>
